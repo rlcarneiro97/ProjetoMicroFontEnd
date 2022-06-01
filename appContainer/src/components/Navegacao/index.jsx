@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
+import { Route, Routes, useNavigate } from "react-router-dom";
 
 const ListarClientesApp = React.lazy(() => import('listar/ListarClientesApp'));
 const CadastrarClienteApp = React.lazy(() => import('cadastrar/CadastrarClienteApp'));
