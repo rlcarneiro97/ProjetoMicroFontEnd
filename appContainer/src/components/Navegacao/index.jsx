@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import { Route, Routes, useNavigate, useParams } from "react-router-dom";
+import { Route, Routes, useNavigate, useLocation } from "react-router-dom";
 
 const ListarClientesApp = React.lazy(() => import('listar/ListarClientesApp'));
 const CadastrarClienteApp = React.lazy(() => import('cadastrar/CadastrarClienteApp'));
@@ -8,13 +8,8 @@ const DetalheClienteApp = React.lazy(() => import('detalhe/DetalheClienteApp'));
 export function Navegacao(){
     const navegacao = useNavigate();
 
-    // console.log(window.location.pathname);
-    var param = window.location.pathname.split("/");
-    // console.log(param);
-    // console.log(param[2]);
-    param = Number.parseInt(param[2], 10);
-    // console.log(param);
-    var id = param;
+    let param = window.location.pathname.split("/");
+    let id = Number.parseInt(param[2], 10);
 
     return(
         <Routes>
