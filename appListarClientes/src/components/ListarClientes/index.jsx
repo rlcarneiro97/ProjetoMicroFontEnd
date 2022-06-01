@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Table } from "reactstrap";
 import { api } from "../../services/api";
-import { Nav, Navbar, NavItem } from "reactstrap";
 
 export default function ListarClientes(){
 
