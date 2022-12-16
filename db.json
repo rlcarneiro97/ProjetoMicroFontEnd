@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Laura",
+      "peso": "70",
+      "altura": "1.70",
+      "sexo": "feminino",
+      "imc": 1
+    },
+    {
+      "id": 2,
+      "nome": "Pedro",
+      "peso": "80",
+      "altura": "1.80",
+      "sexo": "masculino",
+      "imc": 1
+    },
+    {
+      "id": 3,
+      "nome": "Clara",
+      "peso": "75",
+      "altura": "1.60",
+      "sexo": "feminino",
+      "imc": 1
+    },
+    {
+      "nome": "Israel",
+      "peso": "78",
+      "altura": "1.7",
+      "sexo": "Masculino",
+      "imc": 26.989619377162633,
+      "id": 4
+    }
+  ]
+}
